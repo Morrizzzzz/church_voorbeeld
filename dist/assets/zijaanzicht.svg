@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Indicatief zijaanzicht en langsdoorsnede van St Bartholomew the Less</title>
+  <desc id="desc">Niet-maatvaste langsdoorsnede met verhoogde vloer, orgelgalerij, hoge lichtbeuk, stergewelf, koorboog en vijfzijdige apsis.</desc>
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#d9e9f0" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M100 0H0V100" fill="none" stroke="#bdd5e1" stroke-width="1.4"/>
+    </pattern>
+    <pattern id="earth" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <path d="M0 0V16" stroke="#aebfca" stroke-width="3"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#154273"/>
+    </marker>
+    <style>
+      .heavy{fill:none;stroke:#154273;stroke-width:14;stroke-linejoin:round;stroke-linecap:square}
+      .mid{fill:none;stroke:#01689b;stroke-width:5;stroke-linejoin:round}
+      .thin{fill:none;stroke:#154273;stroke-width:2}
+      .dash{fill:none;stroke:#01689b;stroke-width:2;stroke-dasharray:8 7}
+      .label{font:700 18px Verdana,sans-serif;fill:#154273;letter-spacing:.03em}
+      .small{font:14px Verdana,sans-serif;fill:#39586d}
+      .micro{font:11px Verdana,sans-serif;fill:#39586d;letter-spacing:.08em}
+      .call{fill:#154273;stroke:#fff;stroke-width:3}
+      .num{font:700 15px Verdana,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#f8fcfd"/>
+  <rect x="30" y="30" width="1140" height="740" fill="url(#grid)" stroke="#154273" stroke-width="2"/>
+  <text x="62" y="72" class="micro">ST BARTHOLOMEW THE LESS · LONDON</text>
+  <text x="62" y="104" class="label">ZIJAANZICHT / LANGSDOORSNEDE · INDICATIEVE RECONSTRUCTIE</text>
+  <text x="94" y="144" class="micro">WEST</text>
+  <text x="1072" y="144" class="micro">OOST</text>
+
+  <!-- Ground and raised floor -->
+  <rect x="70" y="610" width="1060" height="52" fill="url(#earth)"/>
+  <line x1="70" y1="610" x2="1130" y2="610" class="thin"/>
+  <path d="M128 566H1038" class="heavy"/>
+  <path d="M112 610h88M152 610v-44" class="thin" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="83" y="589" class="micro" transform="rotate(-90 83 589)">CA. 0,76 M</text>
+
+  <!-- Narthex and west gallery -->
+  <path d="M128 566V366H254" class="heavy"/>
+  <path d="M254 566V214" class="heavy"/>
+  <path d="M142 366h196v16H142z" fill="#e5f1f7" stroke="#154273" stroke-width="3"/>
+  <path d="M166 366v-78M188 366V276M210 366V294M232 366V264M254 366V282M276 366V300M298 366V276" stroke="#154273" stroke-width="6"/>
+  <path d="M158 418h130v116H158z" fill="#fff" stroke="#01689b" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="223" y="478" class="micro" text-anchor="middle">NARTHEX</text>
+  <text x="238" y="247" class="micro" text-anchor="middle">ORGEL</text>
+
+  <!-- Octagonal nave walls and clerestory -->
+  <path d="M254 566V378M804 566V378" class="heavy"/>
+  <path d="M254 378 304 238H754L804 378" fill="#eef6f9" stroke="#154273" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M304 238Q530 70 754 238" fill="#fff" stroke="#154273" stroke-width="14"/>
+
+  <!-- Vault ribs and central boss -->
+  <path d="M306 378Q374 204 530 114M754 378Q688 204 530 114M304 238Q420 210 530 114M754 238Q640 210 530 114" class="mid"/>
+  <path d="M330 348Q430 252 530 114M730 348Q630 252 530 114" class="thin"/>
+  <circle cx="530" cy="114" r="13" fill="#ffb612" stroke="#154273" stroke-width="3"/>
+  <circle cx="304" cy="238" r="8" fill="#ffb612" stroke="#154273" stroke-width="2"/>
+  <circle cx="754" cy="238" r="8" fill="#ffb612" stroke="#154273" stroke-width="2"/>
+
+  <!-- Clerestory windows -->
+  <g fill="#fff" stroke="#01689b" stroke-width="3">
+    <path d="M352 330v-58q30-54 60 0v58z"/>
+    <path d="M456 311v-66q30-54 60 0v66z"/>
+    <path d="M560 311v-66q30-54 60 0v66z"/>
+    <path d="M664 330v-58q30-54 60 0v58z"/>
+  </g>
+  <g fill="none" stroke="#bdd5e1" stroke-width="2">
+    <circle cx="382" cy="284" r="10"/><circle cx="486" cy="263" r="10"/><circle cx="590" cy="263" r="10"/><circle cx="694" cy="284" r="10"/>
+  </g>
+
+  <!-- Lower arches and wall monuments -->
+  <path d="M298 552V456Q352 376 406 456V552M654 552V456Q708 376 762 456V552" class="mid"/>
+  <g fill="#fff" stroke="#6f8796" stroke-width="2">
+    <rect x="318" y="488" width="48" height="30"/>
+    <path d="M680 512v-42q23-32 46 0v42z"/>
+  </g>
+
+  <!-- Pews -->
+  <g fill="#e8ded0" stroke="#154273" stroke-width="2">
+    <path d="M382 522h72v28h-72zM470 522h72v28h-72zM558 522h72v28h-72z"/>
+    <path d="M390 494h64v20h-64zM470 494h72v20h-72zM558 494h64v20h-64z"/>
+  </g>
+
+  <!-- Chancel arch and apse -->
+  <path d="M804 566V366Q858 270 912 366V566" class="heavy"/>
+  <path d="M912 566V356Q970 266 1038 356V566" class="heavy"/>
+  <path d="M820 366Q858 302 896 366" class="mid"/>
+  <path d="M916 356Q972 292 1024 356M1038 356 974 276 912 356" class="mid"/>
+  <circle cx="974" cy="276" r="9" fill="#ffb612" stroke="#154273" stroke-width="2"/>
+  <path d="M946 530h62v28h-62z" fill="#fff" stroke="#154273" stroke-width="3"/>
+  <path d="M960 518h34" stroke="#154273" stroke-width="4"/>
+  <g fill="#fff" stroke="#01689b" stroke-width="3">
+    <path d="M934 468v-70q20-42 40 0v70zM986 468v-70q20-42 40 0v70z"/>
+  </g>
+  <text x="977" y="550" class="micro" text-anchor="middle">ALTAAR</text>
+
+  <!-- Callouts -->
+  <g>
+    <path d="M180 588 90 696" class="thin"/>
+    <circle cx="76" cy="714" r="17" class="call"/><text x="76" y="715" class="num">1</text>
+    <path d="M240 288 156 190" class="thin"/>
+    <circle cx="142" cy="174" r="17" class="call"/><text x="142" y="175" class="num">2</text>
+    <path d="M486 263 420 166" class="thin"/>
+    <circle cx="410" cy="148" r="17" class="call"/><text x="410" y="149" class="num">3</text>
+    <path d="M530 114 590 78" class="thin"/>
+    <circle cx="610" cy="68" r="17" class="call"/><text x="610" y="69" class="num">4</text>
+    <path d="M820 366 862 212" class="thin"/>
+    <circle cx="868" cy="192" r="17" class="call"/><text x="868" y="193" class="num">5</text>
+    <path d="M990 330 1060 224" class="thin"/>
+    <circle cx="1072" cy="206" r="17" class="call"/><text x="1072" y="207" class="num">6</text>
+  </g>
+
+  <!-- Title block -->
+  <rect x="650" y="674" width="490" height="76" fill="#fff" stroke="#154273" stroke-width="2"/>
+  <line x1="930" y1="674" x2="930" y2="750" stroke="#154273" stroke-width="1"/>
+  <text x="670" y="699" class="micro">TYPE</text>
+  <text x="670" y="724" class="label">MODELAFGELEID · NIET MAATVAST</text>
+  <text x="950" y="699" class="micro">BRONNEN</text>
+  <text x="950" y="721" class="small">3D-model + lijstbeschrijving</text>
+  <text x="950" y="741" class="micro">VERSIE 28-10-2026</text>
+</svg>
